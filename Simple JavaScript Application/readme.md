@@ -10,5 +10,5 @@ There is no one way to complete this exercise as long as the minimum requirement
 2. index.html contains two elements: one for the search term and one for the results.
 3. The results should show as a list with each item in an "owner/name" format.
 4. When a result is clicked, display an alert with the repo's `language`, `followers`, `url` and `description`.
-5. The search term should be cached so duplicate searches do not trigger further requests. 
+5. Cache the results to prevent triggering duplicate network requests.  
 6. Solution does not need to support older browsers.
